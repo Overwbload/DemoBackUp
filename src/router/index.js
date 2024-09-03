@@ -11,11 +11,6 @@ const routes = [
         component: () => import('../views/frontend/HomePage.vue')
       },
       {
-        path: '123',
-        name: '',
-        component: () => import('../views/backup/I18nTest.vue')
-      },
-      {
         path: 'products',
         name: 'Products',
         component: () => import('../views/frontend/ProductsPage.vue')
